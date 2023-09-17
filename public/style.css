@@ -1,0 +1,113 @@
+code {
+  background: #d0d0d5;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-container {
+  max-width: 95%;
+}
+
+textarea {
+  border-radius:5px;
+  border: none;
+}
+
+#user-stories {
+  font-size: 1.2em;
+}
+
+#output-container,
+#solution-container,
+#text-input,
+#locale-select,
+input[type="button"] {
+  font-size: 1.1em;
+}
+
+#output-container {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+}
+
+#solution-container {
+  display: flex;
+  flex-direction: column;
+}
+
+#translated-sentence {
+  margin-top: 10px;
+  font-weight: normal;
+}
+
+#error-msg {
+  font-weight: normal;
+  color: red;
+}
+
+.highlight {
+  color: #ff8980;
+}
+
+#text-input {
+  padding: 10px;
+}
+
+header{
+  text-align: center;
+  padding: 20px;
+  color: white;
+}
+
+body{
+  color: white;
+  height: 100vh;
+  background: linear-gradient(45deg, #041c41, #072c65);}
+
+/* Base button styles */
+.button {
+  margin-left: 10px;
+  background-color: #374c6d;
+  color: white; /* Text color */
+  border: none;
+  padding: 10px 20px; /* Adjust padding as needed */
+  border-radius: 5px; /* Rounded corners */
+  font-size: 16px; /* Adjust font size as needed */
+  cursor: pointer;
+  /* Add any other desired styles */
+}
+
+/* Hover effect */
+.button:hover {
+  background-color: #0f74d9; /* Change color on hover */
+  /* Add any other hover effects */
+}
+
+.instruments{
+  display: flex;
+  padding: 10px;
+}
+.title{
+  text-align: center;
+  margin-top: 20px;
+}
+
+div#translated-sentence {
+  text-align: justify;
+  color: #d9d5d5;
+}
+
+select#locale-select {
+  border-radius: 5px;
+  background-color: #05214c;
+  border: none;
+  color: #ffffff;
+  cursor: pointer;
+}
+
